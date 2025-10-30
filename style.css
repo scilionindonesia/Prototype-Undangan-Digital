@@ -20,7 +20,7 @@ p {
 .halamansatu, .halamandua, .halamantiga {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
     }
 
 .header{
@@ -242,7 +242,7 @@ div .weare {
 }
 
 .halamanlima .container .rekening {
-    margin: 40px 0px 0px 0px;
+    margin: 40px 10px 0px 10px;
     min-width: 350px;
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
@@ -384,4 +384,5 @@ div .weare {
     }
     100% {
       transform: translateY(0); /* turun lagi */
+
     }
