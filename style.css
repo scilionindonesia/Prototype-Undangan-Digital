@@ -1,0 +1,387 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    color: #1C352D;
+    }
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+    }
+    
+.halamansatu, .halamandua, .halamantiga {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    }
+
+.header{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    }
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    }
+
+h2, h3, h4 {
+   font-family: "Cinzel Decorative", serif; 
+   }
+
+div .weare {
+    font-size: 14px;
+    font-family: "Cinzel Decorative", serif;
+    }
+
+.halamansatu .gambar {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+    }
+
+.halamansatu .gambar img{
+    border-radius: 125px;
+    }
+
+.halamansatu .namapasangan h2, p {
+    margin: 0;
+    }
+
+.halamansatu .container #dear{
+    font-size: 12px;
+    margin-top: 40px;
+}
+    
+.halamansatu .container .tamu {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 30px 0px;
+    border-radius: 10px;
+    }
+    
+.halamansatu .container .tamu .namatamu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    }
+
+.halamansatu .container .bukaundangan{
+    width: 110px;
+    height: 30px;
+    background-color: #1C352D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    font-size: 12px;
+    color: white;
+    }
+
+.halamansatu .container .bukaundangan a{
+    color: white;
+    text-decoration: none;
+}
+
+.halamandua .container{
+    display: flex;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    Background-color: white;
+    margin: 10px;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.halamandua .container .fotosepasang{
+    display: flex;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    margin: 35px 0px 35px 0px;
+    gap: 20px;
+}
+
+.halamandua .container .fotosepasang h3 {
+    margin: 0px;
+}
+
+.halamandua .container p {
+    margin: 0px 30px 10px 30px;
+}
+
+.halamandua .container .fotosepasang img {
+    border-radius: 20px;
+}
+
+.halamandua .container .detailmempelai p{
+    margin: 0px;
+}
+
+.halamandua .container .detailmempelai h2{
+    margin: 10px;
+}
+
+.halamantiga{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 30px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.halamantiga .container {
+    gap: 20px;
+}
+
+.halamantiga .container .akadnikah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    min-width: 360px;
+    color: white;
+    background-color: #1C352D;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.halamantiga .container .akadnikah .lihatlokasi{
+    display: flex;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    font-size: 12px;
+    height: 26px;
+    width: 100px;
+    background: white;
+    color: #1C352D;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.halamantiga .container .akadnikah .tanggal{
+    display: flex;
+    justify-content: center;  /* Horizontal tengah */
+    align-items: center;      /* Vertikal tengah */
+    gap: 20px;
+}
+
+.halamantiga .container .akadnikah .tanggal h4 {
+    border: 2px solid white;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 80px;
+    padding: 5px;
+}
+
+.halamantiga .container .akadnikah .waktu {
+    margin-bottom: 15px;
+}
+
+
+.halamantiga .container .akadnikah .waktu #jam{
+    margin-bottom: 15px;
+}
+
+.halamanempat{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 40px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.halamanempat .container p {
+    margin: 0px 20px 0px 20px;
+}
+
+.halamanempat .container .fotokenangan {
+    margin: 30px 0px 30px 0px;
+}
+
+.halamanempat .container .fotokenangan img{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.halamanlima{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 40px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.halamanlima .container {
+    padding: 10px;
+}
+
+.halamanlima .container p {
+    margin: 0px 40px 0px 40px;
+}
+
+.halamanlima .container .rekening {
+    margin: 40px 0px 0px 0px;
+    min-width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.halamanlima .container .rekening p{
+    font-size: 12px;
+}
+
+.halamanlima .container .rekening div {
+    margin: 20px
+}
+
+.halamanenam{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 40px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.halamanenam .container {
+    padding: 10px;
+}
+
+.halamanenam .container .paragraf {
+    margin: 20px;
+}
+
+.halamanenam .container .paragraf h4{
+    margin-bottom: 4px;
+}
+
+.halamantujuh{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 40px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.halamantujuh .container{
+    padding: 20px;
+}
+
+.halamantujuh .container h4{
+    margin: 20px;
+    font-size: 14px;
+}
+
+.halamantujuh .container #komen{
+    color: white;
+    background-color: #1C352D;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 80px 0px 0px 0px;
+}
+
+.kolomkomentar{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 30px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.kolomkomentar .container{
+    padding: 20px;
+}
+
+.kolomkomentar .container p{
+    margin-bottom: 60px;
+}
+
+.kolomkomentar .container h4{
+    font-size: 14px;
+}
+
+ .container .fotosepasang .cincin {
+    position: relative;
+    animation: naikTurun 3s ease-in-out infinite;
+    }
+
+.halamansembilan{
+    background: white;
+    margin: 10px;
+    padding: 0px 10px 30px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.halamansembilan .container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.halamansembilan .container div{
+    font-size: 12px;
+}
+
+.halamansembilan .container h2{
+    margin-bottom: 30px;
+}
+
+.halamansembilan .container .keluargamempelai{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.halamansembilan .container .keluargamempelai .rinci h3{
+    margin: 5px 0px 1px 0px;
+}
+
+.halamansembilan .container .keluargamempelai .rinci p{
+    margin: 5px 0px 5px 0px;
+}
+
+.halamansembilan .container .gambar img{
+    border-radius: 125px;
+    margin: 40px 0px 20px 0px;
+}
+
+
+    
+
+  @keyframes naikTurun {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* naik ke atas */
+    }
+    100% {
+      transform: translateY(0); /* turun lagi */
+    }
